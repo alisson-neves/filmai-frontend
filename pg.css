@@ -1,0 +1,156 @@
+/* CSS DA HOMEPAGE */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(54deg, rgba(20,63,107,1) 0%, rgba(20,63,107,1) 41%, rgb(58, 119, 131)100%);
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 6px 4px 25px -3px rgba(0,0,0,0.50);
+}
+
+#logo {
+  height: 50px;
+  padding-left: 30px;
+  padding-top: 5px;
+}
+
+#link {
+  color: #fff;
+}
+
+#link:hover{
+  color: #FEB139;
+}
+/* SEÇÃO DO BANNER */
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.banner .content {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: #f5f5f5; /* Cor do texto e botão */
+  text-align: left;
+  z-index: 3;  position: absolute;
+}
+
+.banner h1 {
+  font-size: 90px;
+  text-align: left;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 4px -1px 4px rgba(0,0,0,0.45);
+}
+
+.banner p {
+  font-family: 'Montserrat', sans-serif;  font-size: 18px;
+  font-weight: 500;
+  color: #f5f5f5;
+}
+
+
+.banner button {
+  box-shadow: 6px 4px 25px -3px rgba(0,0,0,0.80);
+  background-color: #F55353; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.banner button:hover{
+  background: #831c1c;
+}
+
+/* ondas */
+#wave{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 60%;
+  width: 100%;
+  z-index: 2;
+}
+
+#part1 {
+  padding: 50px 0;
+  position: relative;
+}
+
+#img-sobre {
+  position: absolute;
+  width: 650px;
+  top: 60%;
+  left: 25%;
+  transform: translate(-50%, -50%); 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+#marca {
+  font-family: 'Montserrat', sans-serif;  font-weight: 600;
+  color: #f5f5f5;
+  text-align: right;
+  /* position: absolute; */
+  top: 5%; /* Ajuste a porcentagem conforme necessário */
+  left: 65%; /* Ajuste a porcentagem conforme necessário */
+  font-size: 35px;
+  margin-top: 20px;
+  z-index: 2; 
+  line-height: 5%;
+  text-shadow: 2px -1px 4px rgba(0,0,0,0.45);
+
+}
+
+#text{
+  z-index: 2;
+}
+
+#descricao {
+  color: #f5f5f5;
+  font-size: 17px;
+  text-align: right;
+  margin-top: 20px;
+  z-index: 2;
+}
+main{
+  height: 600px;
+  background-color:  #143F6B;
+}
+
+footer {
+  background: linear-gradient(-95deg, rgba(20,63,107,1) 0%,rgb(58, 119, 131)100%, rgb(58, 119, 131)100%);
+  height: 250px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+footer a{
+  color: #FEB139;
+  font-size: 12px;
+}
